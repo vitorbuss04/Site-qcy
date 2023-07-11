@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fontes/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+
+.back-body {
+    background-color: black;
+    z-index: -1;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 44px;
+    width: 100vw;
+    background-color: #454545c4;
+    backdrop-filter: blur(7px);
+    --webkit-backdrop-filter: blur(7px);
+}
+
+header nav img {
+    width: 44px;
+    
+}
+
+
+
+header nav {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav a {
+    font-size: .75rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #d5d5d5;
+    font-family: 'SF Pro Display';
+}
+
+nav .conta, .sacola {
+    height: 1rem;
+    font-size: 1.1rem;
+    color: #d5d5d5;
+    cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 100vw;
+    background-color: black;
+}
+
+.sobre-nos-content {
+    display: flex;
+    position: absolute;
+    right: 20%;
+    color: #dfdfdf;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 2em;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.comunidade {
+    color: #dfdfdf;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 15px;
+    background-color: #2b73db;
+    border: none;
+    border-radius: 15px;
+}
+main {
+    position: absolute;
+    top: 90px;
+}
+
+.compre-online-container {
+    height: 51px;
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+}
+
+.texto-topo {
+    text-align: center;
+    width: 100vw;
+    font-size: 13px;
+    color: #292929;
+    text-shadow: .5px 0px 0px rgba(0, 0, 0, 0.61);
+}
+
+.compreonline {
+    color: #2b73db;
+    text-decoration: underline;
+}
+
+.produto {
+    width: 80%;
+    padding: 60px 20px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.produto h1 {
+    font-size: 52px;
+}
+
+.produto h2 {
+    font-size: 28px;
+}
+
+.produto h3 {
+    z-index: 0;
+    font-size: 22px;
+    color: #999999;
+    font-weight: normal;
+    text-shadow: 1px 0 0 #999999;
+}
+
+.linha-botao-compra {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 100px;
+    padding-top: 15px;
+}
+
+span.saiba-mais {
+    color: #2b73db;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.compra {
+    color: #dfdfdf;
+    font-family: 'SF Pro Display';
+    text-shadow: .5px 0 0 #dfdfdf;
+    font-size: 16px;
+    padding: 10px;
+    width: 180px;
+    background-color: #2b73db;
+    border: none;
+    border-radius: 20px;
+}
+
+.div-foto-produto {
+    width: 80%;
+    margin: auto;
+}
+
+#fone-ht05 {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#fone-t20 {
+    max-width: 466px;
+    padding-top: 30px;
+    margin-bottom: -4px;
+}
+
+.background-black-t13 {
+    width: 100vw;
+    background-color: black;
+}
+
+#fone-t13 {
+    height: 400px;
+    margin-bottom: -4px;
+}
+
+.t13-white {
+    color: white;
+    box-shadow: none;
+}
