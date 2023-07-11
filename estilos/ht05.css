@@ -18,8 +18,7 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
+
     z-index: 1;
     height: 44px;
     width: 100vw;
@@ -66,13 +65,20 @@ nav .conta, .sacola {
     background-color: black;
 }
 
+.titulo-ht05 {
+    position: absolute;
+    left: -600px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 .sobre-nos-content {
     display: flex;
     position: absolute;
     right: 20%;
     color: #dfdfdf;
     font-family: 'SF Pro Display';
-    font-weight: 600;
+    font-weight: normal;
     font-size: 13px;
     line-height: 2em;
     width: 400px;
@@ -82,10 +88,91 @@ nav .conta, .sacola {
 .comunidade {
     color: #dfdfdf;
     font-family: 'SF Pro Display';
-    font-weight: 600;
+    font-weight: normal;
     font-size: 12px;
     padding: 6px 15px;
     background-color: #2b73db;
     border: none;
     border-radius: 15px;
 }
+
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 170px;
+}
+
+.container-produto {
+    display: flex;
+}
+
+.info-produto {
+    width: 615px;
+}
+
+.info-produto > h1{
+    font-size: 52px;
+    color: #1d1d1d;
+
+}
+
+.info-produto > h2 {
+    font-size: 28px;
+    width: 390px;
+    color: #1d1d1d;
+}
+
+.info-produto > h3 {
+    font-size: 22px;
+    color: #999999;
+    width: 415px;
+    margin-bottom: 50px;
+}
+
+.info-produto > .preço {
+    font-size: 40px;
+}
+
+.info-produto > span {
+    color: #2b73db;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.compra-main {
+    display: block;
+    margin-top: 30px;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2b73db;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+.icone-presente {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.frete-gratis-texto {
+    display: block;
+}
+
+.aparelhos-compativeis {
+    font-size: 11px;
+    color: #1d1d1d;
+    margin-top: 15px;
+}
+
+.img-aparelhos {
+    display: block;
+}
+
+.aparelhos-compativeis > h1 {
+    font-size: 8px;
+}
+
