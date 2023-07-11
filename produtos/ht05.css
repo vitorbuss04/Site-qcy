@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fontes/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 44px;
+    width: 100vw;
+    background-color: #454545c4;
+    backdrop-filter: blur(7px);
+    --webkit-backdrop-filter: blur(7px);
+}
+
+header nav img {
+    width: 44px;
+    
+}
+
+
+
+header nav {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav a {
+    font-size: .75rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #d5d5d5;
+    font-family: 'SF Pro Display';
+}
+
+nav .conta, .sacola {
+    height: 1rem;
+    font-size: 1.1rem;
+    color: #d5d5d5;
+    cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 100vw;
+    background-color: black;
+}
+
+.sobre-nos-content {
+    display: flex;
+    position: absolute;
+    right: 20%;
+    color: #dfdfdf;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 2em;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.comunidade {
+    color: #dfdfdf;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 15px;
+    background-color: #2b73db;
+    border: none;
+    border-radius: 15px;
+}

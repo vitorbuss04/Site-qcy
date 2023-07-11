@@ -12,11 +12,6 @@
     font-family: 'SF Pro Display';
 }
 
-.back-body {
-    background-color: black;
-    z-index: -1;
-}
-
 body {
     height: 100vh;
     width: 100vw;
@@ -25,7 +20,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1;
     height: 44px;
     width: 100vw;
     background-color: #454545c4;
@@ -97,6 +92,7 @@ nav .conta, .sacola {
 main {
     position: absolute;
     top: 90px;
+    background-color: #F7F7F7;
 }
 
 .compre-online-container {
@@ -135,7 +131,6 @@ main {
 }
 
 .produto h3 {
-    z-index: 0;
     font-size: 22px;
     color: #999999;
     font-weight: normal;
@@ -150,6 +145,7 @@ main {
     margin: auto;
     gap: 100px;
     padding-top: 15px;
+    margin-bottom: 15px;
 }
 
 span.saiba-mais {
@@ -190,6 +186,7 @@ span.saiba-mais {
 .background-black-t13 {
     width: 100vw;
     background-color: black;
+    margin-bottom: 7px;
 }
 
 #fone-t13 {
@@ -200,4 +197,116 @@ span.saiba-mais {
 .t13-white {
     color: white;
     box-shadow: none;
+}
+
+.video-background {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.conteudo-apresentacao {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 72%;
+    right: 25%;
+}
+
+.apreh3 {
+    font-size: 15px;
+}
+
+.apreh1 {
+    font-size: 46px;
+}
+
+.apreh4 {
+    font-size: 18px;
+}
+
+.link-video-apre {
+    display: flex;
+    align-items: center;
+    gap: -20px;
+    background-color: white;
+    padding: 18px 60px 18px 31px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 32px;
+    line-height: 1rem;
+
+}
+
+.play-icon {
+    position: relative;
+    left: 30px;
+    font-size: 28px;
+    line-height: 1rem;
+
+}
+
+.video-apresentação {
+    display: block;
+    height: 617px;
+    margin: auto;
+}
+
+.criticas {
+    height: 168px;
+    width: 95vw;
+    background-color: black;
+    margin: auto;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.criticas h3 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.imagens-criticas {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 120px;
+
+}
+
+.background-black-tecnologia {
+    width: 100vw;
+    height: 450px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.background-black-tecnologia > h1 {
+    color: white;
+    width: 893px;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    font-size: 100px;
+    line-height: 0.9em;
+}
+
+.background-black-tecnologia > p {
+    color: white;
+    font-size: 20px;
+    width: 893px;
+    position: relative;
+    left: 150px;
+    top: 85px;
 }
