@@ -15,10 +15,11 @@
 body {
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
     height: 44px;
@@ -64,6 +65,7 @@ nav .conta, .sacola {
     height: 46px;
     width: 100vw;
     background-color: black;
+    margin-top: 44px;
 }
 
 .sobre-nos-content {
@@ -200,6 +202,7 @@ span.saiba-mais {
 }
 
 .video-background {
+    position: relative;
     display: flex;
     background-color: black;
     padding: 15px;
@@ -213,8 +216,8 @@ span.saiba-mais {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 72%;
-    right: 25%;
+    top: 25%;
+    left: 25%;
 }
 
 .apreh3 {
@@ -232,7 +235,6 @@ span.saiba-mais {
 .link-video-apre {
     display: flex;
     align-items: center;
-    gap: -20px;
     background-color: white;
     padding: 18px 60px 18px 31px;
     font-size: 17px;
@@ -241,7 +243,6 @@ span.saiba-mais {
     text-decoration: none;
     border-radius: 32px;
     line-height: 1rem;
-
 }
 
 .play-icon {
