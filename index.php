@@ -15,7 +15,7 @@
                 <a href="produtos/t20.html">T20®</a>
                 <a href="produtos/t13.html">T13®</a>
                 <a href="https://play.google.com/store/apps/details?id=com.qcymall.googleearphonesetup" target="_blank">App®</a>
-                <span class="conta"><ion-icon name="person-outline"></ion-icon></span>
+                <a class="conta" href="login.php"><span ><ion-icon name="person-outline"></ion-icon></span></a>
                 <span class="sacola"><ion-icon name="bag-outline"></ion-icon></span>
             </nav>
         </header>

@@ -202,10 +202,11 @@ span.saiba-mais {
 }
 
 .video-background {
-    position: relative;
-    display: flex;
     background-color: black;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     margin-bottom: 40px;
 }
 
@@ -216,10 +217,13 @@ span.saiba-mais {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    z-index: 1000;
 }
 
+.video-apresentação {
+    display: block;
+    height: 617px;
+}
 .apreh3 {
     font-size: 15px;
 }
@@ -253,11 +257,6 @@ span.saiba-mais {
 
 }
 
-.video-apresentação {
-    display: block;
-    height: 617px;
-    margin: auto;
-}
 
 .criticas {
     height: 168px;
